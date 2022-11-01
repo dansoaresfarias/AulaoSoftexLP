@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
+#include <stdlib.h>
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
@@ -12,4 +13,8 @@ int main(){
 	tempF = (tempC * 9/5) + 32.0;
 	
 	printf("\n\t%.2f°C | %.2f°F | %.2f°K\n\n", tempC, tempF, tempK);
+	
+	system("PAUSE");
+	
+	return 0;
 }
