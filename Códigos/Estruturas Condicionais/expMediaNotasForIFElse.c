@@ -7,11 +7,11 @@ int main(){
 	int qtdNotas, i;
 	
 	printf("Informe quantas notas o aluno tem:");
-	scanf("%.2f", &qtdNotas);
+	scanf("%d", &qtdNotas);
 	
 	for(i = 1 ; i <= qtdNotas ; i++){
-		printf("Digite a %.2fª nota do aluno: ", i);
-		scanf("%.2f", &nota);
+		printf("Digite a %iª nota do aluno: ", i);
+		scanf("%f", &nota);
 		media += nota;
 	}
 		
